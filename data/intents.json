@@ -1,0 +1,16 @@
+[
+  {"intent": "greeting", "patterns": ["hello", "hi", "hey", "wake up", "hey mini assistant", "mini assistant"]},
+  {"intent": "date_time", "patterns": ["time", "what time is it", "tell me the time", "current time"]},
+  {"intent": "browser", "patterns": ["open browser", "open google", "launch browser"]},
+  {"intent": "notepad", "patterns": ["open notepad", "launch notepad"]},
+  {"intent": "volume_up", "patterns": ["volume up", "increase volume", "make it louder"]},
+  {"intent": "volume_down", "patterns": ["volume down", "decrease volume", "make it quieter"]},
+  {"intent": "who_am_i", "patterns": ["who are you", "what is your name"]},
+  {"intent": "who_is_user", "patterns": ["who am i", "what is my name", "tell me about me"]},
+  {"intent": "set_user_name", "patterns": ["set my name", "change my name", "my name is"]},
+  {"intent": "change_ai_name", "patterns": ["change your name", "set your name", "rename yourself"]},
+  {"intent": "set_user_dob", "patterns": ["set my birthday", "my birthday is", "save my birthday"]},
+  {"intent": "lock_system", "patterns": ["lock computer", "lock system"]},
+  {"intent": "shutdown", "patterns": ["shut down computer", "shutdown system"]},
+  {"intent": "help", "patterns": ["help", "what can you do", "commands"], "responses": ["I can greet you, tell the time, open a browser or Notepad, change volume, remember your name and birthday, lock the computer, and shut it down after confirmation."]}
+]

@@ -1,0 +1,7 @@
+# The assistant runs in typed-command mode with only Python 3.10+.
+# Install these to enable microphone input, spoken output, and volume controls:
+SpeechRecognition
+PyAudio
+pocketsphinx
+pyttsx3
+pyautogui
